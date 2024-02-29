@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss'],
 })
-export class NavbarComponent {
-
+export class NavbarComponent implements OnInit {
+  ngOnInit(): void {}
+  // opencart(){
+  //   const modelDiv = document.querySelector(#m)
+  // }
 }
