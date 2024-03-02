@@ -8,7 +8,7 @@ export class AuthService {
   constructor() { }
 
   public auth(){
-    console.log('test file');
+    let a = 2;
     
   }
 }
