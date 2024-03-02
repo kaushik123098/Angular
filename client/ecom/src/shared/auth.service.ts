@@ -1,14 +1,12 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthService {
+  constructor() {}
 
-  constructor() { }
-
-  public auth(){
-    let a = 2;
-    
+  public auth() {
+    let a = 4;
   }
 }
